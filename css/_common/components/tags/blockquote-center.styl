@@ -12,21 +12,20 @@
     display: block;
     width: 100%;
     height: 24px;
-    opacity: 0.2;
+    opacity: 0.8;
     background-repeat: no-repeat;
     background-position: 0 -6px;
     background-size: 22px 22px;
   }
   &::before {
-    top: -20px;
+    top: -39px;
     background-image: url($center-quote-left);
-    border-top: 1px solid $grey-light;
+    background-position: center;
   }
   &::after {
-    bottom: -20px;
+    bottom: -39px; 
     background-image: url($center-quote-right);
-    border-bottom: 1px solid $grey-light;
-    background-position: 100% 8px;
+    background-position: center;
   }
 
   p, div { text-align: center; }
